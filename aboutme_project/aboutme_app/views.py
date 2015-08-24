@@ -17,4 +17,4 @@ def index(request):
 	context_dict = {'boldmessage': "I am bold font from the context"}
 
 	#Return a rendered response to send to the client.
-	return render_to_response('aboutme_app/index.html', context_dict, context)
+	return render_to_response('aboutme_app/index2.html', context_dict, context)
