@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+
+	<head>
+		 <meta charset="utf-8">
+   		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		  <meta name="viewport" content="width=device-width, initial-scale=1">
+   		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Iris</title>
+        <link rel="stylesheet" type="text/css" href="{% static "aboutme/main.css" %}" />
+        <link href="{% static "aboutme/css/bootstrap.min.css" %}" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<div class = "box1">
+			<div class = "circular"></div>
+			<div class = "nav">
+				<ul>
+					<li><a href = "/aboutme_app/about">About</a></li>
+					<li><a href = "/aboutme_app/resume">Resume</a></li>
+					<li><a href = "/aboutme_app/connect">Connect</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class = "box2">
+			<div class = "content">
+				<h1>Resume</h1>
+				<h2>Education</h2>
+					<div class = "position">
+						<p>Brown University, 2016</p>
+						<p class = "supporting">B.S. Applied Mathematics-Biology</p>
+					</div>
+					<div class = "detail">
+						<p>Relevant course work includes Quantitative Models of Biological Systems, Statistical Inference, Methods of Applied Mathematics, Organic Chemistry (+ Lab), Biotechnology and Medicine</p>
+					</div>
+				<h2>Work</h2>
+					<div class = "position">
+						<p>Decision Resources Group Consulting, 2015</p>
+						<p class = "supporting">Summer Consulting Intern</p>
+					</div>
+					<div class = "detail">
+						<p>Created a prioritization model assessing the US market landscape for GI diagnostics opportunities</p>
+						<p>Analyzed data from patient record studies and epidemiological papers to produce actionable results for clients</p>
+						<p>Proactively assumed project management responsibility to ensure communication and version control between remote members</p>
+					</div>
+					<div class = "position">
+						<p>Gilead Sciences, Inc., 2014</p>
+						<p class = "supporting">Pharmaceutical Manufacturing Intern</p>
+					</div>
+					<div class = "detail">
+						<p>Supported the implementation of the Continuous Process Verification program as aligned with 2011 FDA guidelines for process validation.</p>
+						<p>Trained other team members on the foundations of Statistical Process Control and Six-Sigma practices.</p>
+						<p>Assisted in GxP activities such as documentation.</p>
+					</div>
+					<div class = "position">
+						<p>San Francisco Veterans Affairs Medical Center, 2013</p>
+						<p class = "supporting">Biostatistics Intern</p>
+					</div>
+					<div class = "detail">
+						<p>Investigated the effects of various drugs on Hepatitis C and cirrhosis with a research group.</p>
+						<p>Retrieved various clinical trials data from external files and cleaned input to create meaningful SAS data sets.</p>
+						<p>Obtained descriptive statistics and prepared statistical reports to discuss the output with other research members.</p>
+					</div>
+				<h2>Extracurricular</h2>
+					<div class = "position">
+						<p>Brown University Simulation of the United Nations</p>
+						<p class = "supporting">Secretary-General</p>
+					</div>
+					<div class = "detail">
+						<p>Responsible for the content of 40 committees and logistics for the 900-delegate high school Model UN conference.</p>
+						<p>Oversaw work of all other Secretariat members as the head of the coordinating board by implementing the usage of project management software to increase productivity and efficiency.</p>
+						<p>Managed financial transactions totaling over $50,000 throughout the year.</p>
+					</div>
+					<div class = "position">
+						<p>Chinese Students Association</p>
+						<p class = "supporting">President</p>
+					</div>
+					<div class = "detail">
+						<p>Redefined organization missions to have a larger emphasis on cultural significance and education</p>
+						<p>Created a more focused and streamlined board through the implementation of meeting agendas and action items</p>
+						<p>Promoted campus visibility, doubled event attendance, and increased number of socials held</p>
+					</div>
+				<h2>Other</h2>
+					<div class = "position">
+						<p>Technical</p>
+					</div>
+					<div class = "detail">
+						<p>SAS Certified Base Programmer in SAS 9.</p>
+						<p>Qualified in MS Office including Word, Powerpoint, and Excel.</p>
+					</div>
+					<div class = "position">
+						<p>Languages</p>
+					</div>
+					<div class = "detail">
+						<p>Chinese: native proficiency</p>
+					</div>
+			</div>
+		</div>
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{% static "aboutme/js/bootstrap.min.js"}"></script>
+	</body>
+
+</html>
