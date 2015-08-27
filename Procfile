@@ -1,1 +1,1 @@
-web: gunicorn sagacious-barnacle.wsgi --log-file -
+web: gunicorn aboutme_project.wsgi --log-file -
