@@ -1,81 +1,62 @@
+html {
+  height:100%;
+  width:100%;
+}
+
 body {
   font-family: 'HelveticaNeue-Light', sans-serif;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  color: #212121;
 }
 
-.nav {
-  padding-top: 10px;
-  background-color: #f8f8f8
-}
-.nav a {
-	color: #000000;
-	font-size: 13px;
-	padding: 14px 10px;
-	text-transform: uppercase;
+.container {
+  display:flex;
+  margin:auto;
+  justify-content:center;
 }
 
-.nav a:hover {
-  color: #666666;
+
+.thumbnail {
+  height:120px;
+  width:120px;
+}
+
+.description {
+  border: #666666 dashed 2px;
+  background-color: #FBFBFB;
+  padding-right:20px; 
+  padding-left:20px;
+  width:350px;
+  height:120px;
+}
+
+.description h1 {
+  font-size: 20px;
+  color:#594954;
+  line-height:12px;
+}
+
+.description p {
+  font-size: 13px;
+  color:#B492A8;
+}
+
+.box {
+  /*max-width: 100%;
+  justify-content:center;*/
+}
+
+a.click {
+  color: #212121;
+  font-size: 13px;
+  padding: 12px 3px;
+}
+
+a.click:hover {
+  color: #CCCCCC;
   text-decoration: none;
 }
-
-.nav li {
-  display:inline;
-}
-
-.jumbotron {
-	background: url('imgs/iris.jpg') no-repeat top right;
-  height:650px;
-}
-
-.jumbotron h2 {
-	font-size: 68px;
-}
-
-.jumbotron p {
-  font-size:24px;
-}
-
-/* Font things */
-/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;*/
-
-/* From Codecademy */
-/*
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
-}
-
-.jumbotron {
-  background-image:url('http://goo.gl/04j7Nn');
-  height: 500px;
-}
-
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-}
-
-.learn-more {
-  background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
-}*/
