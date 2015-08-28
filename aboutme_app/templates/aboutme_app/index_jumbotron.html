@@ -16,22 +16,28 @@
 	</head>
 
 	<body>
-		<div class = "container">
-			<div class = "description">
-				<h1>Hello, my name is Iris.</h1>
-				<p>I'm a senior at Brown University studying Applied Mathematics-Biology with a passion for problem solving and strategic planning. <a class = "click" href="/aboutme_app/about">Let's connect.</a></p>			
-			</div>
-			<div class = "thumbnail">
-				<img src = "{% static "aboutme/imgs/iris3.jpeg" %}" alt = "Iris" />
-			</div>
+	
+	<div class = "nav">
+  		<div class = "container">
+			<ul class = pull-right>
+				<li><a href = "/aboutme_app/about">About</a></li>
+				<li><a href = "/aboutme_app/resume">Resume</a></li>
+				<li><a href = "/aboutme_app/connect">Connect</a></li>
+			</ul>
 		</div>
+	</div>
 
-
+	<div class = "jumbotron">
+		<div class = "container">
+			<h2>Hello, my name is Iris.</h2>
+			<p>Brown '16. Reflect, Spearhead, Drive.</p>
+		</div>
+	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{% static 'aboutme/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'aboutme/js/bootstrap.min.js'}"></script>
 	</body>
 
 </html>

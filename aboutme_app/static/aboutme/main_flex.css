@@ -1,0 +1,90 @@
+html, body {
+  font-family: 'HelveticaNeue-Light', sans-serif;
+  display:flex;
+  justify-content:center;
+  height:100%;
+  width:100%;
+  color: #212121;
+}
+
+/*Left side of the screen*/
+.box1 {
+  width: 25%;
+  padding: 5% 3%;
+}
+
+.nav {
+  margin-left:82px;
+  margin-top:18px;
+}
+
+.nav a {
+  color: #212121;
+  font-size: 11px;
+  padding: 12px 3px;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  color: #B492A8;
+  text-decoration: none;
+}
+
+.circular {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background: url("../aboutme/imgs/iris3.jpeg") no-repeat;
+  background-size:contain;
+  float:left;
+}
+
+/*Right side of the screen*/
+/*About page*/
+.box2 {
+  width: 40%;
+  font-size: 11px;
+  padding: 3%;
+}
+
+.content h1 {
+  font-size: 20px;
+  color:#212121;
+}
+
+.content h2 {
+  font-size: 15px;
+  color:#594954;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  color: #B492A8;
+}
+
+/*Resume page*/
+.position {
+  font-weight: 500;
+}
+
+.supporting {
+  color: #B492A8;
+}
+
+.detail {
+  padding-left: 5%;
+}
+
+/*Connect page*/
+.content a{
+  color: #B492A8;
+  font-size: 11px;
+}
+
+.content a:hover {
+  color: #212121;
+  text-decoration: none;
+}
