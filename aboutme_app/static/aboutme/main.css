@@ -65,6 +65,12 @@ html, body {
   color: #B492A8;
 }
 
+.first-word {
+  font-size: 18px;
+  font-style: italic;
+  color: #B492A8;
+}
+
 /*Resume page*/
 .position {
   font-weight: 500;
