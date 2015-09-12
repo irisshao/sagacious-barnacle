@@ -14,6 +14,5 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
-    url(r'', include('aboutme_app.urls')),
-    url(r'^aboutme_app/', include('aboutme_app.urls')), # Adding new tuple
+    url(r'', include('aboutme_app.urls'))
 )
